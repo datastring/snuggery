@@ -1,0 +1,65 @@
+table {
+  display: block;
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.md h1 {
+  font-size: 1.55rem;
+  line-height: 1.15;
+  font-weight: bold;
+  padding: 0.6rem 0 0 0;
+}
+
+.md h2 {
+  font-size: 1.35rem;
+  line-height: 1.15;
+  font-weight: bold;
+  padding: 0.6rem 0 0 0;
+}
+
+.md h3 {
+  font-size: 1.10rem;
+  font-weight: bold;
+  padding: 0.6rem 0 0 0;
+}
+
+.md h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.6rem 0 0 0;
+}
+
+.layout-aside {
+  max-width: 50rem;
+}
+
+.layout-aside aside {
+  width: 200px;
+}
+
+.layout-aside img {
+  border-radius: 5px;
+}
+
+#readme {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .layout-aside main {
+    flex-direction: column;
+  }
+
+  #readme {
+    display: block;
+  }
+
+  aside {
+    display: none;
+  }
+}
