@@ -27,6 +27,7 @@ p {
   color: #9d9d9d;
   font-size: 1em;
   text-decoration: none;
+  margin-bottom: 8px;
 }
 
 a {
@@ -42,14 +43,10 @@ a:hover {
   color: #cc6600;
 }
 
-#title {
+/* #title {
   width: 250px;
   margin-top: 0px;
-}
-
-#clock {
-  float: left;
-}
+} */
 
 .tag p {
   /* font-size: 0.6em; */
@@ -59,7 +56,9 @@ a:hover {
 
 #container {
   height: 450px;
-  width: 800px;
+  /* width: 800px; */
+  /* width: 720px; */
+  max-width: 720px;
   background: #2e2e2e;
   position: relative;
   top: 0;
@@ -69,15 +68,15 @@ a:hover {
   margin: auto;
 
   padding-top: 50px;
-  padding-left: 50px;
+  /* padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 75px;
+  padding-bottom: 75px; */
   border-bottom: 2px dotted #ff8000;
 }
 
 .block {
   float: left;
-  margin-right: 50px;
+  margin-right: 25px;
   width: auto;
   background: transparent;
 }
@@ -85,10 +84,10 @@ a:hover {
 #weather {
   float: right;
   width: 170px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
-#quote {
+/* #quote {
   height: auto;
   width: 800px;
   background: #2e2e2e;
@@ -115,4 +114,4 @@ a:hover {
   color: #2e2e2e;
   font-style: italic;
   font-size: 0.6em;
-}
+} */
