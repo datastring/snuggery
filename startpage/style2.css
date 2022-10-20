@@ -14,15 +14,14 @@ html {
 body {
   /* font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; */
-  /* font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; */
-  font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  margin: 0;
+    /* font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; */
+    font-family: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    margin: 0;
 }
 
 .dark-mode {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 hr {
@@ -202,8 +201,8 @@ img {
   max-height: 100vh;
 }
 
-img[alt="imageclass"] {
-  width: 480px;
+img[alt="imageclass"] { 
+  width:  480px; 
   height: 249px;
   display: block;
 }
@@ -560,7 +559,7 @@ a:active code {
 }
 
 a.title {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 button,
@@ -836,35 +835,35 @@ ol ol {
 }
 
 nav {
-  font-size: 120%;
+    font-size: 120%;
 }
 
 nav > p {
-  margin: 0 0;
+    margin: 0 0;
 }
 
 body > footer {
-  border-top: var(--border-width) solid var(--border-color);
+    border-top: var(--border-width) solid var(--border-color);
 }
 
 footer {
-  text-align: center;
-  padding-top: 0 !important;
+    text-align: center;
+  	padding-top: 0!important;
 }
-
-footer > a {
-  text-decoration: none;
+  
+footer > a{
+    text-decoration: none;    
 }
 
 .subscribe {
-  position: absolute;
-  bottom: 50px;
-  left: 0ch;
-  right: 0ch;
+    position:absolute;
+    bottom: 50px;
+    left: 0ch;
+    right: 0ch;
 }
 
 .blog-posts {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 aside {
@@ -876,9 +875,9 @@ aside {
 }
 
 .raisedquote {
-  border: 1px solid;
-  box-shadow: 3px 3px grey;
-  margin: 1rem;
-  padding: 0.01rem 0.8rem;
-  border-radius: 5px;
+    border: 1px solid;
+    box-shadow: 3px 3px grey;
+    margin: 1rem;
+    padding: 0.01rem 0.8rem;
+    border-radius: 5px;
 }

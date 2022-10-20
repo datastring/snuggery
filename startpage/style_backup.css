@@ -6,7 +6,7 @@ html {
 
 h1 {
   font-style: italic;
-  font-size: 1em;
+  /* font-size: 1em; */
   color: #ff8000;
   text-transform: uppercase;
 }
@@ -105,14 +105,11 @@ a:hover {
 
 .AWAD_title {
   color: #2e2e2e;
-  font-size: 0.8em;
 }
 .AWAD_quotation {
   color: #9d9d9d;
-  font-size: 0.8em;
 }
 .AWAD_byline {
   color: #2e2e2e;
   font-style: italic;
-  font-size: 0.6em;
 }
