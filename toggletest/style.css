@@ -1270,13 +1270,14 @@ html {
  transition-property:color,background,border-color;
  -webkit-user-select:none;
  -ms-user-select:none;
- user-select:none
+ -user-select:none;
 }
 .copyButton_Ue-o,
 .toggle_71bT {
  -webkit-user-select:none;
- -ms-user-select:none
-}
+ -ms-user-select:none;
+ -user-select:none;
+ }
 .button,
 .button:hover {
  color:var(--ifm-button-color)
@@ -2851,73 +2852,5 @@ ul.contains-task-list {
  }
  .navbar__toggle {
   display:inherit
- }
- .navbar__search-input {
-  width:9rem
- }
- .pills--block,
- .tabs--block {
-  flex-direction:column
- }
- .pills--block .pills__item:not(:first-child) {
-  margin-top:var(--ifm-pills-spacing)
- }
- .pills--block .pills__item:not(:last-child) {
-  margin-bottom:var(--ifm-pills-spacing)
- }
- .tabs--block .tabs__item:not(:first-child) {
-  margin-top:var(--ifm-tabs-spacing)
- }
- .tabs--block .tabs__item:not(:last-child) {
-  margin-bottom:var(--ifm-tabs-spacing)
- }
- .docItemContainer_gpai {
-  padding:0 .3rem
- }
-}
-@media screen and (max-width:966px) {
- .heroBanner_3P7f {
-  padding:2rem
- }
-}
-@media (hover:hover) {
- .backToTopButton_35hR:hover {
-  background-color:var(--ifm-color-emphasis-300)
- }
-}
-@media (pointer:fine) {
- .thin-scrollbar {
-  scrollbar-width:thin
- }
- .thin-scrollbar::-webkit-scrollbar {
-  height:var(--ifm-scrollbar-size);
-  width:var(--ifm-scrollbar-size)
- }
- .thin-scrollbar::-webkit-scrollbar-track {
-  background:var(--ifm-scrollbar-track-background-color);
-  border-radius:10px
- }
- .thin-scrollbar::-webkit-scrollbar-thumb {
-  background:var(--ifm-scrollbar-thumb-background-color);
-  border-radius:10px
- }
- .thin-scrollbar::-webkit-scrollbar-thumb:hover {
-  background:var(--ifm-scrollbar-thumb-hover-background-color)
- }
-}
-@media print {
- .announcementBar_3WsW,
- .footer,
- .menu,
- .navbar,
- .pagination-nav,
- .table-of-contents {
-  display:none
- }
- .tabs {
-  page-break-inside:avoid
- }
- .codeBlockLines_39YC {
-  white-space:pre-wrap
  }
 }
