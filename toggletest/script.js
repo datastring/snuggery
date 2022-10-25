@@ -4,11 +4,10 @@ const theme = window.localStorage.getItem("theme");
 const toggle2 = document.getElementById("toggle");
 const refresh2 = document.getElementById("refresh");
 
-/* verifica se o tema armazenado no localStorage é escuro
-se sim aplica o tema escuro ao body */
+/* verifica se o tema armazenado no localStorage é escuro se sim aplica o tema escuro ao body */
 if (theme === "dark") document.body.classList.add("dark");
 
-// event listener para quando o botão de alterar o tema for clicado
+// event listener
 toggle.addEventListener("click", () => {
   document.body.classList.toggle("dark");
   if (theme === "dark") {
