@@ -1,6 +1,6 @@
-<h1 align="center">The Sandbox</h1>
+<h1 align="center">Snuggery</h1>
 <p align="center">
-<em>This is my personal mess.</em>
+<em>This is a comfy repo to try things in. Akin to a sandbox.</em>
 <br>
 <br>
 <img src="./assets/serene-gif2.webp" width="350" />
